@@ -1,0 +1,16 @@
+mongo server: mongodb+srv://aniketdutta:<password>@devconnectify.dgyuw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+list of commands used 
+git init
+npm init
+
+npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
+
+npm i -D nodemon concurrently
+*concurrently used to run backend and frontend at same time
+
+node server start script -> 
+	"scripts": {
+			"start": "node server", // node filename (server.js) in this case
+			"server": "nodemon server" // nodemon for dev env to re start the server
+		}
