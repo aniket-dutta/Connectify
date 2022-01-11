@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://aniketdutta:Aniket28@devconnectify.dgyuw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret" : "paraphase"
+}
