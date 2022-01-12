@@ -1,4 +1,6 @@
 {
-    "mongoURI" : "mongodb+srv://aniketdutta:Aniket28@devconnectify.dgyuw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret" : "paraphase"
+  "mongoURI": "mongodb+srv://aniketdutta:Aniket28@devconnectify.dgyuw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "paraphase",
+  "githubClientId": "97efceab1ffb57cac040",
+  "githubSecret": "815e4b47c399ffeadfdedd4a390c9197a51abc95"
 }
