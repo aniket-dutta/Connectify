@@ -4,7 +4,7 @@ const auth = require('../../middleware/auth');
 const { check, validationResult } = require('express-validator');
 const Profile = require('../../models/Profile');
 const User = require('../../models/User');
-const request = require('request');
+const request = require('request'); // to make github requests
 const config = require('config');
 
 /**

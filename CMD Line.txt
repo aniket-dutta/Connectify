@@ -4,7 +4,7 @@ list of commands used
 git init
 npm init
 
-npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
+npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request cors
 
 npm i -D nodemon concurrently
 *concurrently used to run backend and frontend at same time
@@ -14,3 +14,13 @@ node server start script ->
 			"start": "node server", // node filename (server.js) in this case
 			"server": "nodemon server" // nodemon for dev env to re start the server
 		}
+		
+--------------------------------------------------------------------------------------------------------------------------------
+frontend
+
+npx create-react-app <foldername> 
+npx => run without globally installing react
+
+npm i axios react-router-dom react-redux redux-thunk redux-devtools-extension moment react-moment uuid
+
+/* .. => moves to new directory and ./ => means look in same directory*/
